@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>고객명 :</label>
+        <input type="text" id="name">
+        <br><br>
+        <label>전화번호 :</label>
+        <input type="text" id="number">
+        <br><br>
+        <label>E-mail :</label>
+        <input type="text" id="E-mail">
+        <p>
+            <label for="selectcf">피자선택 :</label>
+            <select id="selectcf">
+                <option value="1">피자를 선택하세요</option>
+            </select>
+        </p>
+        <br>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <label>
+                <input type="radio" name="pizza">Small</label>
+                <label><input type="radio" name="pizza">Medium
+            </label>
+            <label>
+                <input type="radio" name="pizza">Large
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>토핑 선택</legend>
+            <input type="checkbox"><label>베이컨</label>
+            <input type="checkbox"><label>치즈</label>
+            <input type="checkbox"><label>양파</label>
+            <input type="checkbox"><label>버섯</label>
+        </fieldset>
+        <p>
+            희망배송시간 :
+            <input type="time">
+        </p>
+        <p><label>배송시요청사항: </label>
+            <textarea></textarea>
+        </p>
+    </form>
+</body>
+</html>
