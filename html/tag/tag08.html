@@ -41,5 +41,42 @@
             <td>1,000원</td>
         </tr>
     </table>
+
+    <table>
+        <!-- 한개 행 tr
+        한개의 열 th, td -->
+        <thead>
+            <tr>
+                <th scope="col">번호</th>
+                <th cope="col">상품명</th>
+                <th cope="col">수량</th>
+                <th cope="col">가격</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>콜라</td>
+                <td>1개</td>
+                <td>1,500원</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>사이다</td>
+                <td>2개</td>
+                <td rowspan="2">1,000원</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>탄산수</td>
+                <td>3개</td>
+                <!-- <td>1,000원</td> -->
+            </tr>
+            <tr>
+                <td>총금액</td>
+                <td colspan="3">6,500원</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
